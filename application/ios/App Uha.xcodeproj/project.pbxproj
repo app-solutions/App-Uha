@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0202590E18549F79008DF0C8 /* Variables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0202590D18549F79008DF0C8 /* Variables.plist */; };
+		022268201857531F0012B674 /* LaSemaineProchaineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0222681F1857531F0012B674 /* LaSemaineProchaineViewController.m */; };
+		0239C87018316F7E000D5937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C86F18316F7E000D5937 /* Foundation.framework */; };
+		0239C87218316F7E000D5937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C87118316F7E000D5937 /* CoreGraphics.framework */; };
+		0239C87418316F7E000D5937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C87318316F7E000D5937 /* UIKit.framework */; };
+		0239C87A18316F7E000D5937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0239C87818316F7E000D5937 /* InfoPlist.strings */; };
+		0239C87C18316F7E000D5937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C87B18316F7E000D5937 /* main.m */; };
+		0239C88018316F7E000D5937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C87F18316F7E000D5937 /* AppDelegate.m */; };
+		0239C88318316F7E000D5937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0239C88118316F7E000D5937 /* Main.storyboard */; };
+		0239C88B18316F7E000D5937 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0239C88A18316F7E000D5937 /* Images.xcassets */; };
+		0239C89218316F7E000D5937 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C89118316F7E000D5937 /* XCTest.framework */; };
+		0239C89318316F7E000D5937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C86F18316F7E000D5937 /* Foundation.framework */; };
+		0239C89418316F7E000D5937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239C87318316F7E000D5937 /* UIKit.framework */; };
+		0239C89C18316F7E000D5937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0239C89A18316F7E000D5937 /* InfoPlist.strings */; };
+		0239C89E18316F7E000D5937 /* App_UhaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C89D18316F7E000D5937 /* App_UhaTests.m */; };
+		0239C8AB1831741C000D5937 /* AccueilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8AA1831741C000D5937 /* AccueilViewController.m */; };
+		0239C8AE18317445000D5937 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8AD18317445000D5937 /* NotificationViewController.m */; };
+		0239C8B118317468000D5937 /* CompteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8B018317468000D5937 /* CompteViewController.m */; };
+		0239C8B41831747B000D5937 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8B31831747B000D5937 /* CreditsViewController.m */; };
+		0239C8B7183176D4000D5937 /* CetteSemaineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8B6183176D4000D5937 /* CetteSemaineViewController.m */; };
+		0239C8BC18317840000D5937 /* Cours.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8B918317840000D5937 /* Cours.m */; };
+		0239C8BD18317840000D5937 /* JsonReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239C8BB18317840000D5937 /* JsonReader.m */; };
+		0274327E1837CB5F00968D72 /* PlanningCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0274327D1837CB5F00968D72 /* PlanningCell.m */; };
+		027DD3CA1836EF5200A47997 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 027DD3C91836EF5200A47997 /* Reachability.m */; };
+		02969A5D18B2CEA800CC0F14 /* Dans2SemainesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02969A5C18B2CEA800CC0F14 /* Dans2SemainesViewController.m */; };
+		02E0B6041865ED6100B9B521 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C0E8B9186266B0004E9CCD /* Social.framework */; };
+		02E3345F18B2D15C00127ACD /* Dans3SemainesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E3345E18B2D15C00127ACD /* Dans3SemainesViewController.m */; };
+		02FB7C4F183904FD004C8135 /* notif.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 02FB7C4E183904FD004C8135 /* notif.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0239C89518316F7E000D5937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0239C86418316F7E000D5937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0239C86B18316F7E000D5937;
+			remoteInfo = "App Uha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202590D18549F79008DF0C8 /* Variables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Variables.plist; sourceTree = "<group>"; };
+		0222681E1857531F0012B674 /* LaSemaineProchaineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaSemaineProchaineViewController.h; sourceTree = "<group>"; };
+		0222681F1857531F0012B674 /* LaSemaineProchaineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaSemaineProchaineViewController.m; sourceTree = "<group>"; };
+		0239C86C18316F7E000D5937 /* App Uha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Uha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0239C86F18316F7E000D5937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0239C87118316F7E000D5937 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0239C87318316F7E000D5937 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0239C87718316F7E000D5937 /* App Uha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App Uha-Info.plist"; sourceTree = "<group>"; };
+		0239C87918316F7E000D5937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0239C87B18316F7E000D5937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0239C87D18316F7E000D5937 /* App Uha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App Uha-Prefix.pch"; sourceTree = "<group>"; };
+		0239C87E18316F7E000D5937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0239C87F18316F7E000D5937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0239C88218316F7E000D5937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0239C88A18316F7E000D5937 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0239C89018316F7E000D5937 /* App UhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App UhaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0239C89118316F7E000D5937 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0239C89918316F7E000D5937 /* App UhaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App UhaTests-Info.plist"; sourceTree = "<group>"; };
+		0239C89B18316F7E000D5937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0239C89D18316F7E000D5937 /* App_UhaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_UhaTests.m; sourceTree = "<group>"; };
+		0239C8A91831741C000D5937 /* AccueilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccueilViewController.h; sourceTree = "<group>"; };
+		0239C8AA1831741C000D5937 /* AccueilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccueilViewController.m; sourceTree = "<group>"; };
+		0239C8AC18317445000D5937 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		0239C8AD18317445000D5937 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		0239C8AF18317468000D5937 /* CompteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompteViewController.h; sourceTree = "<group>"; };
+		0239C8B018317468000D5937 /* CompteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompteViewController.m; sourceTree = "<group>"; };
+		0239C8B21831747B000D5937 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		0239C8B31831747B000D5937 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		0239C8B5183176D4000D5937 /* CetteSemaineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CetteSemaineViewController.h; sourceTree = "<group>"; };
+		0239C8B6183176D4000D5937 /* CetteSemaineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CetteSemaineViewController.m; sourceTree = "<group>"; };
+		0239C8B818317840000D5937 /* Cours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cours.h; sourceTree = "<group>"; };
+		0239C8B918317840000D5937 /* Cours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cours.m; sourceTree = "<group>"; };
+		0239C8BA18317840000D5937 /* JsonReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonReader.h; sourceTree = "<group>"; };
+		0239C8BB18317840000D5937 /* JsonReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonReader.m; sourceTree = "<group>"; };
+		0274327C1837CB5F00968D72 /* PlanningCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanningCell.h; sourceTree = "<group>"; };
+		0274327D1837CB5F00968D72 /* PlanningCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanningCell.m; sourceTree = "<group>"; };
+		027DD3C81836EF5200A47997 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		027DD3C91836EF5200A47997 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		02969A5B18B2CEA800CC0F14 /* Dans2SemainesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dans2SemainesViewController.h; sourceTree = "<group>"; };
+		02969A5C18B2CEA800CC0F14 /* Dans2SemainesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dans2SemainesViewController.m; sourceTree = "<group>"; };
+		02C0E8B9186266B0004E9CCD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		02E3345D18B2D15C00127ACD /* Dans3SemainesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dans3SemainesViewController.h; sourceTree = "<group>"; };
+		02E3345E18B2D15C00127ACD /* Dans3SemainesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dans3SemainesViewController.m; sourceTree = "<group>"; };
+		02FB7C4E183904FD004C8135 /* notif.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = notif.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0239C86918316F7E000D5937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E0B6041865ED6100B9B521 /* Social.framework in Frameworks */,
+				0239C87218316F7E000D5937 /* CoreGraphics.framework in Frameworks */,
+				0239C87418316F7E000D5937 /* UIKit.framework in Frameworks */,
+				0239C87018316F7E000D5937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0239C88D18316F7E000D5937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0239C89218316F7E000D5937 /* XCTest.framework in Frameworks */,
+				0239C89418316F7E000D5937 /* UIKit.framework in Frameworks */,
+				0239C89318316F7E000D5937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0239C86318316F7E000D5937 = {
+			isa = PBXGroup;
+			children = (
+				0202590D18549F79008DF0C8 /* Variables.plist */,
+				02FB7C4E183904FD004C8135 /* notif.m4a */,
+				0239C8A718316FD2000D5937 /* Classes */,
+				0239C87518316F7E000D5937 /* App Uha */,
+				0239C89718316F7E000D5937 /* App UhaTests */,
+				0239C86E18316F7E000D5937 /* Frameworks */,
+				0239C86D18316F7E000D5937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0239C86D18316F7E000D5937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0239C86C18316F7E000D5937 /* App Uha.app */,
+				0239C89018316F7E000D5937 /* App UhaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0239C86E18316F7E000D5937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02C0E8B9186266B0004E9CCD /* Social.framework */,
+				0239C86F18316F7E000D5937 /* Foundation.framework */,
+				0239C87118316F7E000D5937 /* CoreGraphics.framework */,
+				0239C87318316F7E000D5937 /* UIKit.framework */,
+				0239C89118316F7E000D5937 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0239C87518316F7E000D5937 /* App Uha */ = {
+			isa = PBXGroup;
+			children = (
+				0239C87E18316F7E000D5937 /* AppDelegate.h */,
+				0239C87F18316F7E000D5937 /* AppDelegate.m */,
+				0239C88118316F7E000D5937 /* Main.storyboard */,
+				0239C8A91831741C000D5937 /* AccueilViewController.h */,
+				0239C8AA1831741C000D5937 /* AccueilViewController.m */,
+				0239C8B5183176D4000D5937 /* CetteSemaineViewController.h */,
+				0239C8B6183176D4000D5937 /* CetteSemaineViewController.m */,
+				0222681E1857531F0012B674 /* LaSemaineProchaineViewController.h */,
+				0222681F1857531F0012B674 /* LaSemaineProchaineViewController.m */,
+				02969A5B18B2CEA800CC0F14 /* Dans2SemainesViewController.h */,
+				02969A5C18B2CEA800CC0F14 /* Dans2SemainesViewController.m */,
+				02E3345D18B2D15C00127ACD /* Dans3SemainesViewController.h */,
+				02E3345E18B2D15C00127ACD /* Dans3SemainesViewController.m */,
+				0274327C1837CB5F00968D72 /* PlanningCell.h */,
+				0274327D1837CB5F00968D72 /* PlanningCell.m */,
+				0239C8AC18317445000D5937 /* NotificationViewController.h */,
+				0239C8AD18317445000D5937 /* NotificationViewController.m */,
+				0239C8AF18317468000D5937 /* CompteViewController.h */,
+				0239C8B018317468000D5937 /* CompteViewController.m */,
+				0239C8B21831747B000D5937 /* CreditsViewController.h */,
+				0239C8B31831747B000D5937 /* CreditsViewController.m */,
+				0239C88A18316F7E000D5937 /* Images.xcassets */,
+				0239C87618316F7E000D5937 /* Supporting Files */,
+			);
+			path = "App Uha";
+			sourceTree = "<group>";
+		};
+		0239C87618316F7E000D5937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0239C87718316F7E000D5937 /* App Uha-Info.plist */,
+				0239C87818316F7E000D5937 /* InfoPlist.strings */,
+				0239C87B18316F7E000D5937 /* main.m */,
+				0239C87D18316F7E000D5937 /* App Uha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0239C89718316F7E000D5937 /* App UhaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0239C89D18316F7E000D5937 /* App_UhaTests.m */,
+				0239C89818316F7E000D5937 /* Supporting Files */,
+			);
+			path = "App UhaTests";
+			sourceTree = "<group>";
+		};
+		0239C89818316F7E000D5937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0239C89918316F7E000D5937 /* App UhaTests-Info.plist */,
+				0239C89A18316F7E000D5937 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0239C8A718316FD2000D5937 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0239C8B818317840000D5937 /* Cours.h */,
+				0239C8B918317840000D5937 /* Cours.m */,
+				0239C8BA18317840000D5937 /* JsonReader.h */,
+				0239C8BB18317840000D5937 /* JsonReader.m */,
+				027DD3C81836EF5200A47997 /* Reachability.h */,
+				027DD3C91836EF5200A47997 /* Reachability.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0239C86B18316F7E000D5937 /* App Uha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0239C8A118316F7E000D5937 /* Build configuration list for PBXNativeTarget "App Uha" */;
+			buildPhases = (
+				0239C86818316F7E000D5937 /* Sources */,
+				0239C86918316F7E000D5937 /* Frameworks */,
+				0239C86A18316F7E000D5937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Uha";
+			productName = "App Uha";
+			productReference = 0239C86C18316F7E000D5937 /* App Uha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0239C88F18316F7E000D5937 /* App UhaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0239C8A418316F7E000D5937 /* Build configuration list for PBXNativeTarget "App UhaTests" */;
+			buildPhases = (
+				0239C88C18316F7E000D5937 /* Sources */,
+				0239C88D18316F7E000D5937 /* Frameworks */,
+				0239C88E18316F7E000D5937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0239C89618316F7E000D5937 /* PBXTargetDependency */,
+			);
+			name = "App UhaTests";
+			productName = "App UhaTests";
+			productReference = 0239C89018316F7E000D5937 /* App UhaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0239C86418316F7E000D5937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "clement mouline";
+				TargetAttributes = {
+					0239C86B18316F7E000D5937 = {
+						DevelopmentTeam = 58Y7397G6L;
+					};
+					0239C88F18316F7E000D5937 = {
+						TestTargetID = 0239C86B18316F7E000D5937;
+					};
+				};
+			};
+			buildConfigurationList = 0239C86718316F7E000D5937 /* Build configuration list for PBXProject "App Uha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0239C86318316F7E000D5937;
+			productRefGroup = 0239C86D18316F7E000D5937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0239C86B18316F7E000D5937 /* App Uha */,
+				0239C88F18316F7E000D5937 /* App UhaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0239C86A18316F7E000D5937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0239C88B18316F7E000D5937 /* Images.xcassets in Resources */,
+				02FB7C4F183904FD004C8135 /* notif.m4a in Resources */,
+				0239C87A18316F7E000D5937 /* InfoPlist.strings in Resources */,
+				0239C88318316F7E000D5937 /* Main.storyboard in Resources */,
+				0202590E18549F79008DF0C8 /* Variables.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0239C88E18316F7E000D5937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0239C89C18316F7E000D5937 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0239C86818316F7E000D5937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0274327E1837CB5F00968D72 /* PlanningCell.m in Sources */,
+				0239C88018316F7E000D5937 /* AppDelegate.m in Sources */,
+				0239C8AE18317445000D5937 /* NotificationViewController.m in Sources */,
+				0239C87C18316F7E000D5937 /* main.m in Sources */,
+				022268201857531F0012B674 /* LaSemaineProchaineViewController.m in Sources */,
+				0239C8B41831747B000D5937 /* CreditsViewController.m in Sources */,
+				027DD3CA1836EF5200A47997 /* Reachability.m in Sources */,
+				02E3345F18B2D15C00127ACD /* Dans3SemainesViewController.m in Sources */,
+				0239C8AB1831741C000D5937 /* AccueilViewController.m in Sources */,
+				0239C8B7183176D4000D5937 /* CetteSemaineViewController.m in Sources */,
+				0239C8BC18317840000D5937 /* Cours.m in Sources */,
+				0239C8B118317468000D5937 /* CompteViewController.m in Sources */,
+				0239C8BD18317840000D5937 /* JsonReader.m in Sources */,
+				02969A5D18B2CEA800CC0F14 /* Dans2SemainesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0239C88C18316F7E000D5937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0239C89E18316F7E000D5937 /* App_UhaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0239C89618316F7E000D5937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0239C86B18316F7E000D5937 /* App Uha */;
+			targetProxy = 0239C89518316F7E000D5937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0239C87818316F7E000D5937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0239C87918316F7E000D5937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0239C88118316F7E000D5937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0239C88218316F7E000D5937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0239C89A18316F7E000D5937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0239C89B18316F7E000D5937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0239C89F18316F7E000D5937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0239C8A018316F7E000D5937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0239C8A218316F7E000D5937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: clement mouline (K78BUSMTC2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Uha/App Uha-Prefix.pch";
+				INFOPLIST_FILE = "App Uha/App Uha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8EA090F5-11E1-45E9-95EF-1F18F5B8B49A";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0239C8A318316F7E000D5937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: clement mouline (K78BUSMTC2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Uha/App Uha-Prefix.pch";
+				INFOPLIST_FILE = "App Uha/App Uha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8EA090F5-11E1-45E9-95EF-1F18F5B8B49A";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0239C8A518316F7E000D5937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/App Uha.app/App Uha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Uha/App Uha-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "App UhaTests/App UhaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0239C8A618316F7E000D5937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/App Uha.app/App Uha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Uha/App Uha-Prefix.pch";
+				INFOPLIST_FILE = "App UhaTests/App UhaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0239C86718316F7E000D5937 /* Build configuration list for PBXProject "App Uha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0239C89F18316F7E000D5937 /* Debug */,
+				0239C8A018316F7E000D5937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0239C8A118316F7E000D5937 /* Build configuration list for PBXNativeTarget "App Uha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0239C8A218316F7E000D5937 /* Debug */,
+				0239C8A318316F7E000D5937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0239C8A418316F7E000D5937 /* Build configuration list for PBXNativeTarget "App UhaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0239C8A518316F7E000D5937 /* Debug */,
+				0239C8A618316F7E000D5937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0239C86418316F7E000D5937 /* Project object */;
+}

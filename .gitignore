@@ -1,0 +1,24 @@
+# APPLICATION ANDROID
+application/android/bin/*
+application/android/gen/*
+application/android/*.apk
+application/android/*.dex
+application/android/*.apk
+application/android/*.ap_
+application/android/local.properties
+application/android/proguard/
+application/android/*.log
+
+# APPLICATION IOS
+*.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.moved-aside
+
+# CONVERTISSEUR
+
+convertisseur/bin/*
+

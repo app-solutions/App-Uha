@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.2 (090314AS1)</string>
+	<key>srvDeviceRegister</key>
+	<string></string>
+	<key>srvUserInfos</key>
+	<string></string>
+	<key>srvGetPlanning</key>
+	<string></string>
+	<key>srvSendNotifications</key>
+	<string></string>
+	<key>srvUpdateUserAccount</key>
+	<string></string>
+</dict>
+</plist>
