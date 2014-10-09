@@ -34,8 +34,8 @@ my $adeProject = 'IUT Colmar 2014-2015';
 my $login = ''; # set the username eg. jean.dupond@uha.fr
 my $password = ''; # set the user's password
 
-my @groupe = ( "CJ11", "CJ12", "CJ13", "CJ14", "CJ21", "CJ22", "CJ23", "CJ24", "LP MI", "LP CASF");
-my @numero = ( "791",  "792",  "793",  "794",  "796",  "797",  "798",  "799",  "142",   "920");
+my @groupe = ( "CJ11", "CJ12", "CJ13", "CJ14", "CJ21", "CJ22", "CJ23", "CJ24", "CJ1A", "CJ2A", "LP MI", "LP CASF");
+my @numero = ( "791",  "792",  "793",  "794",  "796",  "797",  "798",  "799",  "1056", "1239", "142",   "920");
 
 # Web Browser Object creation
 my $mech = WWW::Mechanize->new(agent => 'ADEics 0.2', cookie_jar => {});
