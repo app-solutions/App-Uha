@@ -15,7 +15,7 @@ public final class Utilitaires {
 	public static String LOCAL_USERINFOS_NAME = "userInfos";
 	public static boolean TIMER;
 	
-	public static final String VERS = "App-Uha Android - 1.3.2 (300914AS1)";
+	public static final String VERS = "App-Uha Android - 1.3.3 (091014AS1)";
 	
 	//////////////////////////////////////////////////EN MODE DE PRODUCTION & ALPHA/BETA TEST/////////////////////////////////////////////////////
 	
