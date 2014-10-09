@@ -72,7 +72,7 @@ $Config{useithreads} or die "Thread are disable, recompile perl with thread supp
 my $th1 = threads->new(\&start, \@groupeCJ, \@numeroCJ);
 my $th2 = threads->new(\&start, \@groupeGB, \@numeroGB);
 my $th3 = threads->new(\&start, \@groupeGTE, \@numeroGTE);
-my $th4= threads->new(\&start, \@groupeHSE, \@numeroHSE);
+my $th4 = threads->new(\&start, \@groupeHSE, \@numeroHSE);
 my $th5 = threads->new(\&start, \@groupeRT, \@numeroRT);
 my $th6 = threads->new(\&start, \@groupeTC, \@numeroTC);
 

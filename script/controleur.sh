@@ -8,7 +8,7 @@ echo "telechargement du : "
 date
 
 # Téléchargement
-/App-Uha/ade_CJ.pl | /App-Uha/ade_GB.pl | /App-Uha/ade_GTE.pl | /App-Uha/ade_HSE.pl | /App-Uha/ade_RT.pl | /App-Uha/ade_TC.pl
+/App-Uha/ade_iut_colmar.pl
 
 # Conversion
 java -jar /App-Uha/conv.jar
