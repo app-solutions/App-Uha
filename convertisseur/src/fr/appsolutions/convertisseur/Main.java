@@ -25,104 +25,106 @@ public class Main
 		groupe.add("CJ22"); //5
 		groupe.add("CJ23"); //6
 		groupe.add("CJ24"); //7
-		groupe.add("LP MI"); //8
-		groupe.add("LP CASF"); //9
+		groupe.add("CJ1A"); //8
+		groupe.add("CJ2A"); //9
+		groupe.add("LP MI"); //10
+		groupe.add("LP CASF"); //11
 
 
-		groupe.add("GB111"); //10
-		groupe.add("GB112"); //11
-		groupe.add("GB121"); //12
-		groupe.add("GB122"); //13
-		groupe.add("GB211"); //14
-		groupe.add("GB212"); //15
-		groupe.add("GB221"); //15
-		groupe.add("GB222"); //17
-		groupe.add("LP BIOTECH 1"); //18
-		groupe.add("LP BIOTECH 2"); //19
+		groupe.add("GB111"); //12
+		groupe.add("GB112"); //13
+		groupe.add("GB121"); //14
+		groupe.add("GB122"); //15
+		groupe.add("GB211"); //16
+		groupe.add("GB212"); //17
+		groupe.add("GB221"); //18
+		groupe.add("GB222"); //19
+		groupe.add("LP BIOTECH 1"); //20
+		groupe.add("LP BIOTECH 2"); //21
 
 
-		groupe.add("GTE11-A"); //20
-		groupe.add("GTE11-B"); //21
-		groupe.add("GTE21-A"); //22
-		groupe.add("GTE21-B"); //23
-		groupe.add("GTE1A-C"); //24
-		groupe.add("GTE2A-C"); //25
+		groupe.add("GTE11-A"); //22
+		groupe.add("GTE11-B"); //23
+		groupe.add("GTE21-A"); //24
+		groupe.add("GTE21-B"); //25
+		groupe.add("GTE1A-C"); //26
+		groupe.add("GTE2A-C"); //27
 
-		groupe.add("EN2D-A"); //26
-		groupe.add("EN2D-B"); //27
-
-
-		groupe.add("HSE111"); //28
-		groupe.add("HSE112"); //29
-		groupe.add("HSE121"); //30
-		groupe.add("HSE122"); //31
-		groupe.add("HSE131"); //32
-		groupe.add("HSE132"); //33
-		groupe.add("HSE211"); //34
-		groupe.add("HSE212"); //35
-		groupe.add("HSE221"); //36
-		groupe.add("HSE222"); //37
-		groupe.add("HSE231"); //38
-		groupe.add("HSE232"); //39
-		groupe.add("HSEA1"); //40
-		groupe.add("HSEA2"); //41
-
-		groupe.add("LP AQ APP"); //42
-		groupe.add("LP AQ 11"); //43
-		groupe.add("LP AQ 12"); //44
+		groupe.add("EN2D-A"); //28
+		groupe.add("EN2D-B"); //29
 
 
+		groupe.add("HSE111"); //30
+		groupe.add("HSE112"); //31
+		groupe.add("HSE121"); //32
+		groupe.add("HSE122"); //33
+		groupe.add("HSE131"); //34
+		groupe.add("HSE132"); //35
+		groupe.add("HSE211"); //36
+		groupe.add("HSE212"); //37
+		groupe.add("HSE221"); //38
+		groupe.add("HSE222"); //39
+		groupe.add("HSE231"); //40
+		groupe.add("HSE232"); //41
+		groupe.add("HSEA1"); //42
+		groupe.add("HSEA2"); //43
 
-		groupe.add("RT111"); //45
-		groupe.add("RT112"); //46
-		groupe.add("RT121"); //47
-		groupe.add("RT122"); //48
-		groupe.add("RT211"); //49
-		groupe.add("RT212"); //50
-		groupe.add("RT221"); //51
-		groupe.add("RT222"); //52
-		groupe.add("RT11A"); //53
-		groupe.add("RT12A"); //54
-		groupe.add("RT21A"); //55
-		groupe.add("RT22A"); //56
-
-		groupe.add("LP ASUR 1"); //57
-		groupe.add("LP ASUR 2"); //58
-
-		groupe.add("LP ISVD 1"); //59
-		groupe.add("LP ISVD 2"); //60
+		groupe.add("LP AQ APP"); //44
+		groupe.add("LP AQ 11"); //45
+		groupe.add("LP AQ 12"); //46
 
 
-		groupe.add("TC131"); //61
-		groupe.add("TC132"); //62
-		groupe.add("TC141"); //63
-		groupe.add("TC142"); //64
-		groupe.add("TC151"); //65
-		groupe.add("TC152"); //66
-		groupe.add("TC231"); //67
-		groupe.add("TC232"); //68
-		groupe.add("TC241"); //69
-		groupe.add("TC242"); //70
-		groupe.add("TC251"); //71
-		groupe.add("TC252"); //72
-		groupe.add("TC111A"); //73
-		groupe.add("TC112A"); //74
-		groupe.add("TC121A"); //75
-		groupe.add("TC122A"); //76
-		groupe.add("TC211A"); //77
-		groupe.add("TC212A"); //78
-		groupe.add("TC221A"); //79
-		groupe.add("TC222A"); //80
 
-		groupe.add("TC11TRI"); //81
-		groupe.add("TC12TRI"); //82
-		groupe.add("TC21TRI"); //83
-		groupe.add("TC22TRI"); //84
-		groupe.add("LP TECH2 G11"); //85
-		groupe.add("LP TECH2 G12"); //86
-		groupe.add("LP VINCOM"); //87
-		groupe.add("LP HT 1.1"); //88
-		groupe.add("LP HT 1.2"); //89
+		groupe.add("RT111"); //47
+		groupe.add("RT112"); //48
+		groupe.add("RT121"); //49
+		groupe.add("RT122"); //50
+		groupe.add("RT211"); //51
+		groupe.add("RT212"); //52
+		groupe.add("RT221"); //53
+		groupe.add("RT222"); //54
+		groupe.add("RT11A"); //55
+		groupe.add("RT12A"); //56
+		groupe.add("RT21A"); //57
+		groupe.add("RT22A"); //58
+
+		groupe.add("LP ASUR 1"); //59
+		groupe.add("LP ASUR 2"); //60
+
+		groupe.add("LP ISVD 1"); //61
+		groupe.add("LP ISVD 2"); //62
+
+
+		groupe.add("TC131"); //63
+		groupe.add("TC132"); //64
+		groupe.add("TC141"); //65
+		groupe.add("TC142"); //66
+		groupe.add("TC151"); //67
+		groupe.add("TC152"); //68
+		groupe.add("TC231"); //69
+		groupe.add("TC232"); //70
+		groupe.add("TC241"); //71
+		groupe.add("TC242"); //72
+		groupe.add("TC251"); //73
+		groupe.add("TC252"); //74
+		groupe.add("TC111A"); //75
+		groupe.add("TC112A"); //76
+		groupe.add("TC121A"); //77
+		groupe.add("TC122A"); //78
+		groupe.add("TC211A"); //79
+		groupe.add("TC212A"); //80
+		groupe.add("TC221A"); //81
+		groupe.add("TC222A"); //82
+
+		groupe.add("TC11TRI"); //83
+		groupe.add("TC12TRI"); //84
+		groupe.add("TC21TRI"); //85
+		groupe.add("TC22TRI"); //86
+		groupe.add("LP TECH2 G11"); //87
+		groupe.add("LP TECH2 G12"); //88
+		groupe.add("LP VINCOM"); //89
+		groupe.add("LP HT 1.1"); //90
+		groupe.add("LP HT 1.2"); //91
 
 
 
