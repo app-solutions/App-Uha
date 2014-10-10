@@ -44,8 +44,8 @@ my @groupeGEA = ( "GEA11", "GEA12", "GEA21", "GEA22", "GEA31", "GEA32", "GEA41",
 my @numeroGEA = ( "481",   "512",   "502",   "494",   "503",   "507",   "505",   "513",   "510",   "515",   "267",       "289",       "291",       "134" );
 
 #GEI
-my @groupeGEI = ( "GEI1I-11", "GEI1I-12", "GEI1I-21", "GEI1I-22" );
-my @numeroGEI = ( "142",      "506",      "508",      "509" );
+my @groupeGEI = ( "GEI1I-11", "GEI1I-12", "GEI1I-21", "GEI1I-22", "GEI2I-11", "GEI2I-12", "GEI2I-21", "GEI2I-22" );
+my @numeroGEI = ( "142",      "506",      "508",      "509",      "150",      "522",      "503",      "260" );
 
 
 
