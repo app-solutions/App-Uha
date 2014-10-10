@@ -55,6 +55,11 @@ my @numeroGLT = ( "14",         "15",         "16",         "17",         "2411"
 my @groupeGMP = ( "GMP1I-A11", "GMP1I-A12", "GMP1I-A13", "GMP1I-A21", "GMP1I-A22", "GMP1I-A23", "GMP1I-A31", "GMP1I-A32", "GMP1I-A33", "GMP2I-A11", "GMP2I-A12", "GMP2I-A13", "GMP2I-A21", "GMP2I-A22", "GMP2I-A23" );
 my @numeroGMP = ( "977",       "978",       "979",       "980",       "981",       "982",       "983",       "984",       "985",       "1023",      "1024",      "1025",      "1026",      "1027",      "1028" ); 
 
+#MMI
+my @groupeMMI = ( "MMI1I-11", "MMI1I-12", "MMI1I-21", "MMI1I-22", "MMI2-11", "MMI2-12", "MMI2-21 A", "MMI2-22" );
+my @numeroMMI = ( "5",        "6",        "7",        "8",        "9",       "10",      "1",         "2" );
+
+
 
 # Testing thread  support
 $Config{useithreads} or die "Thread are disable, recompile perl with thread support.";
