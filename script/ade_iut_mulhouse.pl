@@ -47,6 +47,11 @@ my @numeroGEA = ( "481",   "512",   "502",   "494",   "503",   "507",   "505",  
 my @groupeGEI = ( "GEI1I-11", "GEI1I-12", "GEI1I-21", "GEI1I-22", "GEI2I-11", "GEI2I-12", "GEI2I-21", "GEI2I-22" );
 my @numeroGEI = ( "142",      "506",      "508",      "509",      "150",      "522",      "503",      "260" );
 
+#GLT
+my @groupeGLT = ( "GLT1I-TP11", "GLT1I-TP12", "GLT1I-TP21", "GLT1I-TP22", "GLT1I-TP31", "GLT1I-TP32", "GLT2I-TP11", "GLT2I-TP12", "GLT2I-TP21", "GLT2I-TP22" );
+my @numeroGLT = ( "14",         "15",         "16",         "17",         "2411",       "2412",       "20",         "21",         "1688",       "1727" );
+
+
 
 
 # Testing thread  support
