@@ -40,6 +40,8 @@
     [groupeList addObject:@"CJ22"];
     [groupeList addObject:@"CJ23"];
     [groupeList addObject:@"CJ24"];
+    [groupeList addObject:@"CJ1A"];
+    [groupeList addObject:@"CJ2A"];
     [groupeList addObject:@"LP CASF"];
     [groupeList addObject:@"LP MI"];
     

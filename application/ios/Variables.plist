@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>version</key>
-	<string>1.2 (090314AS1)</string>
+	<string>1.2.1 (101014AS1)</string>
 	<key>srvDeviceRegister</key>
 	<string></string>
 	<key>srvUserInfos</key>
