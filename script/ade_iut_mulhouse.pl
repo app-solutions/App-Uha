@@ -40,9 +40,12 @@ my $password = ''; # set the user's password
 # Departements Definitions
 
 #GEA
-my @groupeGEA = ( "GEA11", "GEA12", "GEA21", "GEA22", "GEA31", "GEA32", "GEA41", "GEA42", "GEA51", "GEA52", "GEA2I-TC1", "GEA2I-TC2", "GEA2I-TC3", "GEA2I-TC4");
-my @numeroGEA = ( "481",   "512",   "502",   "494",   "503",   "507",   "505",   "513",   "510",   "515",   "267",       "289",       "291",       "134");
+my @groupeGEA = ( "GEA11", "GEA12", "GEA21", "GEA22", "GEA31", "GEA32", "GEA41", "GEA42", "GEA51", "GEA52", "GEA2I-TC1", "GEA2I-TC2", "GEA2I-TC3", "GEA2I-TC4" );
+my @numeroGEA = ( "481",   "512",   "502",   "494",   "503",   "507",   "505",   "513",   "510",   "515",   "267",       "289",       "291",       "134" );
 
+#GEI
+my @groupeGEI = ( "GEI1I-11", "GEI1I-12", "GEI1I-21", "GEI1I-22" );
+my @numeroGEI = ( "142",      "506",      "508",      "509" );
 
 
 
