@@ -59,7 +59,9 @@ my @numeroGMP = ( "977",       "978",       "979",       "980",       "981",    
 my @groupeMMI = ( "MMI1I-11", "MMI1I-12", "MMI1I-21", "MMI1I-22", "MMI2-11", "MMI2-12", "MMI2-21 A", "MMI2-22" );
 my @numeroMMI = ( "5",        "6",        "7",        "8",        "9",       "10",      "1",         "2" );
 
-
+#SGM
+my @groupeSGM = ( "SGM1I-11", "SGM1I-12", "SGM1I-13", "SGM2I-11", "SGM2I-12");
+my @groupeSGM = ( "97",       "98",       "113",      "101",      "2171" );
 
 # Testing thread  support
 $Config{useithreads} or die "Thread are disable, recompile perl with thread support.";
