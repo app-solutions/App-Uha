@@ -198,7 +198,7 @@ public class Main
 			}
 			catch (Exception e)
 			{
-				System.out.print("[FAIL]\n" + e.toString());
+				System.out.print("[FAIL]\n"); e.printStackTrace();
 			}
 		}
 

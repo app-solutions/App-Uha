@@ -3,6 +3,7 @@ package fr.appsolutions.convertisseur;
 public class Cours
 {
 	private String id;
+	private String jour;
 	private String debut;
 	private String fin;
 	private String modif;
@@ -11,8 +12,9 @@ public class Cours
 	private String salle;
 	private String prof;
 
-	public Cours(String id, String debut, String fin, String modif, String duree, String nom, String salle, String prof)
+	public Cours(String id,String jour ,String debut, String fin, String modif, String duree, String nom, String salle, String prof)
 	{
+		this.jour = jour;
 		this.id = id;
 		this.debut = debut;
 		this.fin = fin;
@@ -27,7 +29,11 @@ public class Cours
 	{
 		return this.id;
 	}
-
+	
+	public String getJour(){
+		return this.jour;
+	}
+	
 	public String getDebut()
 	{
 		return this.debut;
