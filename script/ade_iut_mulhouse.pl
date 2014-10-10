@@ -51,7 +51,9 @@ my @numeroGEI = ( "142",      "506",      "508",      "509",      "150",      "5
 my @groupeGLT = ( "GLT1I-TP11", "GLT1I-TP12", "GLT1I-TP21", "GLT1I-TP22", "GLT1I-TP31", "GLT1I-TP32", "GLT2I-TP11", "GLT2I-TP12", "GLT2I-TP21", "GLT2I-TP22" );
 my @numeroGLT = ( "14",         "15",         "16",         "17",         "2411",       "2412",       "20",         "21",         "1688",       "1727" );
 
-
+#GMP
+my @groupeGMP = ( "GMP1I-A11", "GMP1I-A12", "GMP1I-A13", "GMP1I-A21", "GMP1I-A22", "GMP1I-A23", "GMP1I-A31", "GMP1I-A32", "GMP1I-A33", "GMP2I-A11", "GMP2I-A12", "GMP2I-A13", "GMP2I-A21", "GMP2I-A22", "GMP2I-A23" );
+my @numeroGMP = ( "977",       "978",       "979",       "980",       "981",       "982",       "983",       "984",       "985",       "1023",      "1024",      "1025",      "1026",      "1027",      "1028" ); 
 
 
 # Testing thread  support
