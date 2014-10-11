@@ -72,6 +72,11 @@
             android:label="@string/title_credits"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name="fr.appsolutions.appuha.WidgetProv" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
 
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"
@@ -86,7 +91,7 @@
                 <category android:name="fr.appsolutions.appuha" />
             </intent-filter>
         </receiver>
-        
+
         <!-- Widget Receiver -->
         <receiver android:name="fr.appsolutions.appuha.WidgetProv" >
             <intent-filter>

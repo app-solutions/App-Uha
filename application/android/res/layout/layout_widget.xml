@@ -4,13 +4,32 @@
     android:layout_height="match_parent"
     android:background="@drawable/widget_style" >
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textWidget"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textWidget"
+        android:text="à: 8H00" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="Salle: F14" />
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
         android:src="@drawable/ic_launcher" />
 
     <TextView
@@ -18,10 +37,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/imageView1"
         android:layout_toRightOf="@+id/imageView1"
-        android:text="TextView" />
+        android:layout_marginLeft="5dp"
+        android:text="Prochain cours: Math M4" />
 
 </RelativeLayout>
