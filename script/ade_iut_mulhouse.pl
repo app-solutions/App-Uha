@@ -61,7 +61,7 @@ my @numeroMMI = ( "5",        "6",        "7",        "8",        "9",       "10
 
 #SGM
 my @groupeSGM = ( "SGM1I-11", "SGM1I-12", "SGM1I-13", "SGM2I-11", "SGM2I-12");
-my @groupeSGM = ( "97",       "98",       "113",      "101",      "2171" );
+my @numeroSGM = ( "97",       "98",       "113",      "101",      "2171" );
 
 # Testing thread  support
 $Config{useithreads} or die "Thread are disable, recompile perl with thread support.";
@@ -70,7 +70,7 @@ my $th1 = threads->new(\&start, \@groupeGEA, \@numeroGEA);
 my $th2 = threads->new(\&start, \@groupeGEI, \@numeroGEI);
 my $th3 = threads->new(\&start, \@groupeGLT, \@numeroGLT);
 my $th4 = threads->new(\&start, \@groupeGMP, \@numeroGMP);
-my $th5 = threads->new(\&start, \@groupeMMI, \@numeroMII);
+my $th5 = threads->new(\&start, \@groupeMMI, \@numeroMMI);
 my $th6 = threads->new(\&start, \@groupeSGM, \@numeroSGM);
 
 
