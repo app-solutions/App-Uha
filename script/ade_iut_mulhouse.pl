@@ -66,12 +66,12 @@ my @groupeSGM = ( "97",       "98",       "113",      "101",      "2171" );
 # Testing thread  support
 $Config{useithreads} or die "Thread are disable, recompile perl with thread support.";
 
-my $th1 = threads->new(\&start, \@groupeCJ, \@numeroCJ);
-my $th2 = threads->new(\&start, \@groupeGB, \@numeroGB);
-my $th3 = threads->new(\&start, \@groupeGTE, \@numeroGTE);
-my $th4 = threads->new(\&start, \@groupeHSE, \@numeroHSE);
-my $th5 = threads->new(\&start, \@groupeRT, \@numeroRT);
-my $th6 = threads->new(\&start, \@groupeTC, \@numeroTC);
+my $th1 = threads->new(\&start, \@groupeGEA, \@numeroGEA);
+my $th2 = threads->new(\&start, \@groupeGEI, \@numeroGEI);
+my $th3 = threads->new(\&start, \@groupeGLT, \@numeroGLT);
+my $th4 = threads->new(\&start, \@groupeGMP, \@numeroGMP);
+my $th5 = threads->new(\&start, \@groupeMMI, \@numeroMII);
+my $th6 = threads->new(\&start, \@groupeSGM, \@numeroSGM);
 
 
 $th1->join; $th2->join; $th3->join; $th4->join; $th5->join; $th6->join;
