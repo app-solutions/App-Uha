@@ -3,6 +3,12 @@ package fr.appsolutions.convertisseur;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * 
+ * @author clément Mouline
+ * @version 1.2
+ *
+ */
 
 public class Main
 {
@@ -150,7 +156,7 @@ public class Main
 
 
 			if(Settings.enableNotifications){
-				System.out.print("\nSTEP 3 -> Dowloading old plannings ");
+				System.out.print("\nSTEP 3 -> Downloading old plannings ");
 				planningOld = bdd.getPlanning(groupe);
 			} else{
 				System.out.print("\nSTEP 3 -> Aborded, notifications disable");
@@ -159,7 +165,7 @@ public class Main
 
 
 
-			System.out.print("\nSTEP 4 -> Uploading new planning on database ");
+			System.out.print("\nSTEP 4 -> Uploading new plannings on database ");
 			bdd.updatePlanning(groupe, planningNew);
 
 
@@ -181,7 +187,7 @@ public class Main
 					ArrayList<String> suppression = new ArrayList<String>();
 
 
-					System.out.print("\nSTEP 6 -> Testing differences between classes");
+					System.out.print("\nSTEP 6 -> Testing differences between class ");
 					Comparateur comp = new Comparateur(coursArNew, coursArOld);
 					for (int i = 0; i < groupe.size(); i++) {
 						ajout.add(comp.compareNew(i));
@@ -198,7 +204,7 @@ public class Main
 			}
 			catch (Exception e)
 			{
-				System.out.print("[FAIL]\n" + e.toString());
+				System.out.print("[FAIL]\n"); e.printStackTrace();
 			}
 		}
 

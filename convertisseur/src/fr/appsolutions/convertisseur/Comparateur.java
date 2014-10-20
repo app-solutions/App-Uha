@@ -40,7 +40,7 @@ public class Comparateur
 				}
 
 				if (test) {
-					temp.add(coursArNew.get(groupeId).get(n).getNom());
+					temp.add(coursArNew.get(groupeId).get(n).getNom() + " le " + coursArNew.get(groupeId).get(n).getJour() + " à " + coursArNew.get(groupeId).get(n).getDebut());
 				}
 			}
 
@@ -87,7 +87,7 @@ public class Comparateur
 				}
 
 				if (test) {
-					temp.add(coursArOld.get(groupeId).get(o).getNom());
+					temp.add(coursArOld.get(groupeId).get(o).getNom() + " le " + coursArOld.get(groupeId).get(o).getJour() + " à " + coursArOld.get(groupeId).get(o).getDebut());
 				}
 			}
 

@@ -234,82 +234,82 @@ public class Convertisseur
 
 		if (week.contains("S1")) {
 			if (day.contains("lundi")) {
-				this.coursLundiS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursLundiS1.add(new Cours(id, t.getLundiS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mardi")) {
-				this.coursMardiS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMardiS1.add(new Cours(id, t.getMardiS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mercredi")) {
-				this.coursMercrediS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMercrediS1.add(new Cours(id, t.getMercrediS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("jeudi")) {
-				this.coursJeudiS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursJeudiS1.add(new Cours(id, t.getJeudiS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("vendredi")) {
-				this.coursVendrediS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursVendrediS1.add(new Cours(id, t.getVendrediS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("samedi")) {
-				this.coursSamediS1.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursSamediS1.add(new Cours(id, t.getSamediS1StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 		}
 		else if (week.contains("S2")) {
 			if (day.contains("lundi")) {
-				this.coursLundiS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursLundiS2.add(new Cours(id, t.getLundiS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mardi")) {
-				this.coursMardiS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMardiS2.add(new Cours(id, t.getMardiS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mercredi")) {
-				this.coursMercrediS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMercrediS2.add(new Cours(id, t.getMercrediS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("jeudi")) {
-				this.coursJeudiS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursJeudiS2.add(new Cours(id, t.getJeudiS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("vendredi")) {
-				this.coursVendrediS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursVendrediS2.add(new Cours(id, t.getVendrediS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("samedi")) {
-				this.coursSamediS2.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursSamediS2.add(new Cours(id, t.getSamediS2StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 		}
 		else if (week.contains("S3")) {
 			if (day.contains("lundi")) {
-				this.coursLundiS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursLundiS3.add(new Cours(id, t.getLundiS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mardi")) {
-				this.coursMardiS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMardiS3.add(new Cours(id, t.getMardiS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mercredi")) {
-				this.coursMercrediS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMercrediS3.add(new Cours(id, t.getMercrediS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("jeudi")) {
-				this.coursJeudiS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursJeudiS3.add(new Cours(id, t.getJeudiS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("vendredi")) {
-				this.coursVendrediS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursVendrediS3.add(new Cours(id, t.getVendrediS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("samedi")) {
-				this.coursSamediS3.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursSamediS3.add(new Cours(id, t.getSamediS3StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 		}
 		else if (week.contains("S4")) {
 			if (day.contains("lundi")) {
-				this.coursLundiS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursLundiS4.add(new Cours(id, t.getLundiS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mardi")) {
-				this.coursMardiS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMardiS4.add(new Cours(id, t.getMardiS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("mercredi")) {
-				this.coursMercrediS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursMercrediS4.add(new Cours(id, t.getMercrediS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("jeudi")) {
-				this.coursJeudiS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursJeudiS4.add(new Cours(id, t.getJeudiS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("vendredi")) {
-				this.coursVendrediS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursVendrediS4.add(new Cours(id, t.getVendrediS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 			else if (day.contains("samedi")) {
-				this.coursSamediS4.add(new Cours(id, start, stop, modif, duree, nom, salle, enseignants));
+				this.coursSamediS4.add(new Cours(id, t.getSamediS4StringName(), start, stop, modif, duree, nom, salle, enseignants));
 			}
 		}
 	}
@@ -340,7 +340,8 @@ public class Convertisseur
 
 		if(!coursLundiS1.isEmpty()){
 			for(int i=0; i < coursLundiS1.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursLundiS1.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursLundiS1.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursLundiS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursLundiS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursLundiS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursLundiS1.get(i).getDuree() + "\"," +
@@ -362,7 +363,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMardiS1.isEmpty()){
 			for(int i=0; i < coursMardiS1.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMardiS1.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMardiS1.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMardiS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMardiS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMardiS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMardiS1.get(i).getDuree() + "\"," +
@@ -386,6 +388,7 @@ public class Convertisseur
 		if(!coursMercrediS1.isEmpty()){
 			for(int i=0; i < coursMercrediS1.size() ; i++){
 				planning = planning + "{   \"id\":\"" + coursMercrediS1.get(i).getId() + "\"," + 
+						"   \"jour\":\"" + coursMercrediS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMercrediS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMercrediS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMercrediS1.get(i).getDuree() + "\"," +
@@ -408,7 +411,8 @@ public class Convertisseur
 		if(!coursJeudiS1.isEmpty()){
 			for(int i=0; i < coursJeudiS1.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursJeudiS1.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursJeudiS1.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursJeudiS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursJeudiS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursJeudiS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursJeudiS1.get(i).getDuree() + "\"," +
@@ -431,7 +435,8 @@ public class Convertisseur
 		if(!coursVendrediS1.isEmpty()){
 			for(int i=0; i < coursVendrediS1.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursVendrediS1.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursVendrediS1.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursVendrediS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursVendrediS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursVendrediS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursVendrediS1.get(i).getDuree() + "\"," +
@@ -453,7 +458,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursSamediS1.isEmpty()){
 			for(int i=0; i < coursSamediS1.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursSamediS1.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursSamediS1.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursSamediS1.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursSamediS1.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursSamediS1.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursSamediS1.get(i).getDuree() + "\"," +
@@ -481,7 +487,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursLundiS2.isEmpty()){
 			for(int i=0; i < coursLundiS2.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursLundiS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursLundiS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursLundiS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursLundiS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursLundiS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursLundiS2.get(i).getDuree() + "\"," +
@@ -503,7 +510,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMardiS2.isEmpty()){
 			for(int i=0; i < coursMardiS2.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMardiS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMardiS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMardiS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMardiS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMardiS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMardiS2.get(i).getDuree() + "\"," +
@@ -526,7 +534,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMercrediS2.isEmpty()){
 			for(int i=0; i < coursMercrediS2.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMercrediS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMercrediS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMercrediS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMercrediS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMercrediS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMercrediS2.get(i).getDuree() + "\"," +
@@ -549,7 +558,8 @@ public class Convertisseur
 		if(!coursJeudiS2.isEmpty()){
 			for(int i=0; i < coursJeudiS2.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursJeudiS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursJeudiS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursJeudiS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursJeudiS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursJeudiS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursJeudiS2.get(i).getDuree() + "\"," +
@@ -572,7 +582,8 @@ public class Convertisseur
 		if(!coursVendrediS2.isEmpty()){
 			for(int i=0; i < coursVendrediS2.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursVendrediS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursVendrediS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursVendrediS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursVendrediS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursVendrediS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursVendrediS2.get(i).getDuree() + "\"," +
@@ -594,7 +605,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursSamediS2.isEmpty()){
 			for(int i=0; i < coursSamediS2.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursSamediS2.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursSamediS2.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursSamediS2.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursSamediS2.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursSamediS2.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursSamediS2.get(i).getDuree() + "\"," +
@@ -621,7 +633,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursLundiS3.isEmpty()){
 			for(int i=0; i < coursLundiS3.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursLundiS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursLundiS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursLundiS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursLundiS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursLundiS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursLundiS3.get(i).getDuree() + "\"," +
@@ -643,7 +656,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMardiS3.isEmpty()){
 			for(int i=0; i < coursMardiS3.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMardiS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMardiS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMardiS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMardiS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMardiS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMardiS3.get(i).getDuree() + "\"," +
@@ -666,7 +680,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMercrediS3.isEmpty()){
 			for(int i=0; i < coursMercrediS3.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMercrediS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMercrediS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMercrediS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMercrediS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMercrediS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMercrediS3.get(i).getDuree() + "\"," +
@@ -689,7 +704,8 @@ public class Convertisseur
 		if(!coursJeudiS3.isEmpty()){
 			for(int i=0; i < coursJeudiS3.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursJeudiS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursJeudiS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursJeudiS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursJeudiS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursJeudiS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursJeudiS3.get(i).getDuree() + "\"," +
@@ -712,7 +728,8 @@ public class Convertisseur
 		if(!coursVendrediS3.isEmpty()){
 			for(int i=0; i < coursVendrediS3.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursVendrediS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursVendrediS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursVendrediS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursVendrediS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursVendrediS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursVendrediS3.get(i).getDuree() + "\"," +
@@ -734,7 +751,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursSamediS3.isEmpty()){
 			for(int i=0; i < coursSamediS3.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursSamediS3.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursSamediS3.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursSamediS3.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursSamediS3.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursSamediS3.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursSamediS3.get(i).getDuree() + "\"," +
@@ -762,7 +780,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursLundiS4.isEmpty()){
 			for(int i=0; i < coursLundiS4.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursLundiS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursLundiS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursLundiS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursLundiS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursLundiS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursLundiS4.get(i).getDuree() + "\"," +
@@ -784,7 +803,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMardiS4.isEmpty()){
 			for(int i=0; i < coursMardiS4.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMardiS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMardiS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMardiS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMardiS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMardiS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMardiS4.get(i).getDuree() + "\"," +
@@ -807,7 +827,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursMercrediS4.isEmpty()){
 			for(int i=0; i < coursMercrediS4.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursMercrediS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursMercrediS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursMercrediS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursMercrediS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursMercrediS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursMercrediS4.get(i).getDuree() + "\"," +
@@ -830,7 +851,8 @@ public class Convertisseur
 		if(!coursJeudiS4.isEmpty()){
 			for(int i=0; i < coursJeudiS4.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursJeudiS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursJeudiS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursJeudiS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursJeudiS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursJeudiS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursJeudiS4.get(i).getDuree() + "\"," +
@@ -853,7 +875,8 @@ public class Convertisseur
 		if(!coursVendrediS4.isEmpty()){
 			for(int i=0; i < coursVendrediS4.size() ; i++){
 
-				planning = planning + "{   \"id\":\"" + coursVendrediS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursVendrediS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursVendrediS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursVendrediS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursVendrediS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursVendrediS4.get(i).getDuree() + "\"," +
@@ -875,7 +898,8 @@ public class Convertisseur
 				"\"cours\": [";
 		if(!coursSamediS4.isEmpty()){
 			for(int i=0; i < coursSamediS4.size() ; i++){
-				planning = planning + "{   \"id\":\"" + coursSamediS4.get(i).getId() + "\"," + 
+				planning = planning + "{   \"id\":\"" + coursSamediS4.get(i).getId() + "\"," +
+						"   \"jour\":\"" + coursSamediS4.get(i).getJour() + "\"," +
 						"   \"start\":\"" + coursSamediS4.get(i).getDebut() + "\"," +
 						"   \"stop\":\"" + coursSamediS4.get(i).getFin() + "\"," +
 						"   \"durée\":\"" + coursSamediS4.get(i).getDuree() + "\"," +
@@ -891,8 +915,8 @@ public class Convertisseur
 		planning = planning + "]}}}}}}";
 
 
-		this.planning = this.planning.replaceAll("é", "é");
-		this.planning = this.planning.replaceAll("û", "û");
+		//this.planning = this.planning.replaceAll("é", "é");
+		//this.planning = this.planning.replaceAll("û", "û");
 
 
 
