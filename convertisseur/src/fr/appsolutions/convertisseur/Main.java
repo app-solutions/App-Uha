@@ -3,6 +3,12 @@ package fr.appsolutions.convertisseur;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * 
+ * @author clément Mouline
+ * @version 1.2
+ *
+ */
 
 public class Main
 {
