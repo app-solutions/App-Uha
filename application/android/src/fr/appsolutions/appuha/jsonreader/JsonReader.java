@@ -13,6 +13,18 @@ public class JsonReader {
 	
 	private JSONObject appUha;
 	
+	public static final String S1 = "semaine1";
+	public static final String S2 = "semaine2";
+	public static final String S3 = "semaine3";
+	public static final String S4 = "semaine4";
+	
+	public static final String LUNDI = "lundi";
+	public static final String MARDI = "mardi";
+	public static final String MERCREDI = "mercredi";
+	public static final String JEUDI = "jeudi";
+	public static final String VENDREDI = "vendredi";
+	public static final String SAMEDI = "samedi";
+	
 	public JsonReader(String json) throws JSONException{
 		appUha = (JSONObject) new JSONTokener(json).nextValue();
 		appUha = appUha.getJSONObject("AppUha");
