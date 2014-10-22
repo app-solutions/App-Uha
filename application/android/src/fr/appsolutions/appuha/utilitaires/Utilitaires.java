@@ -20,12 +20,15 @@ public final class Utilitaires {
 	//////////////////////////////////////////////////EN MODE DE PRODUCTION & ALPHA/BETA TEST/////////////////////////////////////////////////////
 	
 	
+	// SERVER
+	private static final String SRV_URL = "";
+	
 	//URLs WEB SERVICE
-	public static final String SRV_URL_REGISTER = "";
-	public static final String SRV_URL_GET_INFOS = "";
-	public static final String SRV_URL_USER_UPDATE = "";
-	public static final String SRV_URL_SEND_MESSAGE = "";
-	public static final String SRV_URL_GET_PLANNING = "";
+	public static final String SRV_URL_REGISTER = SRV_URL + "DeviceRegister.php";
+	public static final String SRV_URL_GET_INFOS =  SRV_URL + "GetUserInfos.php";
+	public static final String SRV_URL_USER_UPDATE = SRV_URL + "UpdateUserAccount.php";
+	public static final String SRV_URL_SEND_MESSAGE = SRV_URL + "SendNotifications.php";
+	public static final String SRV_URL_GET_PLANNING = SRV_URL + "GetPlanning.php";
 	
 	//GOOGLE CLOUD MESSAGING ID
 	public static final String GCM_ID = "";
