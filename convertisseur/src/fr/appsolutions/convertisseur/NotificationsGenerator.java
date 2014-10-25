@@ -68,7 +68,7 @@ public class NotificationsGenerator
 				{
 					System.out.print("\n Send to " + (String)this.groupe.get(h) + "-> ");
 					String serveur = "http://127.0.0.1/app-uha/SendServiceNotifications.php";
-					String post = "messageForAndroid=" + notificationForAndroid + "&messageForIos=" + notificationForIos + "&groupe=" + (String)this.groupe.get(h) + "&key=jqvu202G0ptQOMUQAAj46jw01N1m72Kf";
+					String post = "messageForAndroid=" + notificationForAndroid + "&messageForIos=" + notificationForIos + "&groupe=" + (String)this.groupe.get(h) + "&key=" + Settings.ws_service_key;
 					URL url = new URL(serveur);
 					URLConnection conn = (HttpURLConnection)url.openConnection();
 					conn.setDoOutput(true);

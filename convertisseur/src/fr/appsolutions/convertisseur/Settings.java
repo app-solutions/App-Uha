@@ -6,6 +6,8 @@ public final class Settings {
 	public static final String databaseUser = ""; // database user
 	public static final String databaseUserPassword = ""; // database user's password
 	
+	public static final String ws_service_key = "";
+	
 	public static final boolean enableNotifications = true; // true if you want to enable notify devices when class changes
 	
 }
