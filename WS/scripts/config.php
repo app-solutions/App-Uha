@@ -7,7 +7,7 @@ define("PASSWORD", ""); // user password
 define("DATABASE", ""); // database name (app-uha)
 
 //CLEF SERVICE
-define("SERVICE_KEY", "")
+define("SERVICE_KEY", "");
 
 
 //CLEF GOOGLE NOTIFICATIONS PUSH
