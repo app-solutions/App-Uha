@@ -1,9 +1,13 @@
 <?php
 
+// DATABASE INFORMATION
 define("HOST", "localhost");
 define("USER", ""); // user (app-uha)
 define("PASSWORD", ""); // user password
 define("DATABASE", ""); // database name (app-uha)
+
+//CLEF SERVICE
+define("SERVICE_KEY", "")
 
 
 //CLEF GOOGLE NOTIFICATIONS PUSH

@@ -6,7 +6,7 @@ class Fonctions{
 
 	function __construct() {
         include_once './scripts/connect.php';
-		include_once './scripts/config.php';
+	include_once './scripts/config.php';
         $this->db = new Connect();
         $this->db->connect();
     }

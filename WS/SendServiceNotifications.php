@@ -7,9 +7,10 @@ if( isset($_POST['key']) && isset($_POST['messageForAndroid']) && isset($_POST['
 	$groupe = $_POST['groupe'];
 
 	include_once './scripts/fonctions.php';
+	include_once './scripts/config.php';
 	$db = new Fonctions();
 
-	if($key == "jqvu202G0ptQOMUQAAj46jw01N1m72Kf"){
+	if($key == SERVICE_KEY){
 	
 
 		$db->sendServiceNotifications($messageForAndroid, $messageForIos , $groupe);
