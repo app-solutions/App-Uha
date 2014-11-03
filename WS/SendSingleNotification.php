@@ -7,9 +7,10 @@ if( (isset($_GET['utilisateur']) && $_GET['utilisateur'] != null ) && (isset($_G
 	$key = $_GET['key'];
 
 	include_once './scripts/fonctions.php';
+	include_once './scripts/config.php';
 	$db = new Fonctions();
 	
-	if($key == "LVCq3y59PWe5ue3z4gH38sU2rGwyM2P4"){
+	if($key == SERVICE_KEY){
 	
 		$db->sendSingleNotification($utilisateur,$email ,$message);
 		$payload['AppUha'] = array(
