@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.appsolutions.appuha"
-    android:versionCode="19"
+    android:versionCode="21"
     android:versionName="@string/version" >
 
     <!-- permission d'avoir access au status reseau du telephone -->

@@ -9,13 +9,14 @@ public final class Utilitaires {
 	public static String UNIQUEIDENTIFIER;
 	public static String TOKEN;
 	public static String LOCAL_PLANNING_NAME = "plannings";
+	public static String LOCAL_WIDGET_NAME = "widget";
 	public static String LOCAL_PLANNING_RAM = null;
 	public static int PLANNING_WEEK = 1;
 	public static String LOCAL_COMPTE_NAME = "userAccount";
 	public static String LOCAL_USERINFOS_NAME = "userInfos";
 	public static boolean TIMER;
 	
-	public static final String VERS = "App-Uha Android - 1.3.3 (091014AS1)";
+	public static final String VERS = "App-Uha Android - 1.4 (051114AS1)";
 	
 	//////////////////////////////////////////////////EN MODE DE PRODUCTION & ALPHA/BETA TEST/////////////////////////////////////////////////////
 	
