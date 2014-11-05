@@ -54,7 +54,7 @@ class Notifications {
     $streamContext = stream_context_create();
     stream_context_set_option($streamContext, 'ssl', 'local_cert', APPLE_PEM);
 
-    $apns = stream_socket_client('ssl://' . $apnsHost . ':' . $apnsPort, $error, $errorString, 60, STREAM_CLIENT_CONNECT, $streamContext);
+    $apns = stream_socket_client('tls://' . $apnsHost . ':' . $apnsPort, $error, $errorString, 60, STREAM_CLIENT_CONNECT, $streamContext);
 
 
 	$payload['aps'] = array("alert" => array("body" => $message, "action-loc-key" => "ouvrir l'application" ), "badge" => 1, "sound" => "notif.m4a");
