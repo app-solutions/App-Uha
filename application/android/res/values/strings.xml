@@ -1,80 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
-    <!-- page Main/accueil -->
-    <string name="title_accueil">Accueil</string>
-    
-    <string name="accueil_image">profil</string>
-    
-    <string name="accueil_bonjour"></string>
-    <string name="accueil_email"></string>
-    <string name="accueil_groupe"></string>
-    <string name="accueil_notification"></string>
-    
-    <!-- page Planning -->
-    <string name="title_planning">Planning</string>
-    
-    <string name="planning1">Cette page est actuellement en développement</string>
-    
-    <!-- page notfications -->
-    <string name="title_notifications">Notifications</string>
-    
-    <string name="notifications_message">Votre message:</string>
-    <string name="notifications_type">Envoyer à:</string>
-    <string name="notifications_bouton">Envoyer !</string>
-    
-    <!-- page compte -->
-    <string name="title_compte">Compte</string>
-    
-    <string name="compte_nom" >Nom:</string>
-    <string name="compte_prenom">Prénom:</string>
-    <string name="compte_email">Email UHA:</string>
-    <string name="compte_password">Mot de passe:</string>
-    <string name="compte_groupes">Groupe:</string>
-    <string name="compte_bouton">valider</string>
-    
-    <string name="prenom_error">Aucun prénom</string>
-    <string name="nom_error">Aucun nom</string>
-    <string name="email_error">Aucun email</string>
-    <string name="email_error_domain">Cette email ne fait pas partie de l\'UHA</string>
-    <string name="email_error_name">L\'email ne contient pas le nom ou/et prénom</string>
-    <string name="password_error">Aucun mot de passe</string>
-    
-    <!-- page credits -->
-    <string name="title_credits">Crédits</string>
-    
-	<string name="credits1">App-Uha</string>
-	<string name="credits2"><u>Dévéloppée par:</u></string>
-	<string name="credits_dev1">Clément Mouline</string>
-	<string name="credits_dev2">Abdulkadir Acar</string>
-	<string name="credits_dev3">Morgan Enderlin</string>
-	<string name="credits_dev4">Nicolas Zorn</string>
-	
-	<string name="credits_rem"><u>Remerciement:</u></string>
-	<string name="credits_rem1">Fréderic Drouhin</string>
-	<string name="credits_rem2">Jonathan Ledy</string>
-	
-    <string name="credits3">Cette version de l\'application peut contenir des bugs et est exclusivement réservée à des testeurs expressément autorisés par App-Solutions.</string>
-    <string name="credits_bouton">Voir la liste des MAJ</string>
-    
-    
-    
-    
-    
-    <!-- Menu -->
-    <string name="menu_accueil">Accueil</string>
-    <string name="menu_planning">Planning</string>
-    <string name="menu_notifications">Notifications</string>
-    <string name="menu_compte">Compte</string>
-    <string name="menu_credits">Crédits</string>
-    
-    
-    
-    
-    
-    <!-- Nom de l'application  et version-->
+
     <string name="app_name">App Uha</string>
-    <string name="version">1.4 (051114AS2)</string>
-    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

@@ -3,7 +3,6 @@
 	<name>App-Uha</name>
 	<comment></comment>
 	<projects>
-		<project>library</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

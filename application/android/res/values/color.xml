@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- <color name="list_section_color">#292988</color> -->
-    <color name="list_section_color">#3333a9</color>
-    <color name="list_section_text_color">#ffffff</color>
-	<color name="list_text_color">#000000</color>
-</resources>
