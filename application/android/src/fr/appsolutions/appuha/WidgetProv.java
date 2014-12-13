@@ -77,7 +77,7 @@ public class WidgetProv extends AppWidgetProvider {
 				Cours nextCours = null;
 
 				if(dayCours.isEmpty()){ // if the there is no class in the day
-					String id = pref.getString("planning", null);
+					String id = pref.getString("coursID", null);
 					if(id != null){
 						for(int j=0; i<allCours.size(); j++){
 							if(id.equals(allCours.get(j).getId())){
